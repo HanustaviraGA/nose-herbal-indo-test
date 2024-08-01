@@ -114,6 +114,7 @@
 
     function onAdd(){
         blockPage();
+        $('#formUser').trigger('reset');
         $('#button_reset').show();
         $('#jdl_form_user').text('Form Tambah User').trigger('change');
         $('#password').attr('required', true).trigger('change');
@@ -127,6 +128,7 @@
 
     function onBack(){
         blockPage();
+        $('#formUser').trigger('reset');
         $('#button_reset').show();
         $('#jdl_form_user').text('Form Tambah User').trigger('change');
         $('#password').attr('required', true).trigger('change');
